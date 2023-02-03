@@ -38,6 +38,7 @@ Note: The code moves the mouse cursor by 10 pixels to the right and down. You ca
 
 To change the direction of the mouse cursor when it reaches the screen boundaries, you can add some conditional statements to check its current position and change the direction of movement accordingly. Here's an example:
 
+
 private void timer1_Tick(object sender, EventArgs e)
 {
     int x = Cursor.Position.X;
